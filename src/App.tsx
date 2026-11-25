@@ -38,3 +38,4 @@ return <div className="layout"><aside className="sidebar"><button className="log
 {about&&<div className="overlay" onClick={()=>setAbout(false)}><div className="dialog" onClick={e=>e.stopPropagation()}><button className="close" onClick={()=>setAbout(false)}><X size={19}/></button><div className="eyebrow">VIYORA — FIND YOUR PEOPLE</div><h2>Welcome to your universe.</h2><p>This is an interactive front-end prototype. Profiles, online indicators, room memberships and existing content are illustrative. Posts, follows and messages are browser-local, not shared. There is no live authentication or backend yet.</p><button className="primary" onClick={()=>setAbout(false)}>Continue exploring <ArrowRight size={15}/></button></div></div>}
 {notice&&<div className="toast"><Check size={16}/>{notice}</div>}
 </div>
+}
